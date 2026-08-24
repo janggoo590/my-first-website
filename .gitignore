@@ -1,10 +1,14 @@
 # Dependencies
-node_modules
+node_modules/
 
 # Build output
-dist
+dist/
 dist-ssr
 build
+
+# Cache
+.cache/
+.vite/
 
 # Logs
 logs
@@ -17,13 +21,19 @@ lerna-debug.log*
 
 # Env
 .env
+.env.local
+.env.*.local
 .env.*
 
+# MCP / Claude Code local settings
+.mcp.json
+.claude/
+
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
