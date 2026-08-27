@@ -1,0 +1,14 @@
+/* 앱 전역 레이아웃 스타일 */
+
+/* 섹션 사이 구분선 영역 */
+.app-layout__sections {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* 섹션이 하나도 없을 때 안내 문구 */
+.app-layout__empty {
+  text-align: center;
+  color: #919191;
+}
