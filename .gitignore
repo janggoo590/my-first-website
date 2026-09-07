@@ -31,6 +31,7 @@ lerna-debug.log*
 
 # Nested standalone repos (backed up separately)
 lecture1/my-portfolio/
+lecture1/my-community/
 
 # Editor directories and files
 .vscode/
