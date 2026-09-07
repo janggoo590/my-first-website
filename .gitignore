@@ -29,6 +29,9 @@ lerna-debug.log*
 .mcp.json
 .claude/
 
+# Nested standalone repos (backed up separately)
+lecture1/my-portfolio/
+
 # Editor directories and files
 .vscode/
 .idea/
